@@ -1,0 +1,32 @@
+{
+  "name": "unit-test-push",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "debug": "^3.1.0",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "helmet": "^3.12.1",
+    "jsonwebtoken": "^8.2.2",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.5",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fionor/unit-test-PUSH.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fionor/unit-test-PUSH/issues"
+  },
+  "homepage": "https://github.com/Fionor/unit-test-PUSH#readme"
+}

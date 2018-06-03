@@ -7,6 +7,9 @@ module.exports = (server) => {
     io.on('connection', socket => {
         console.log(`SOCKET CONNECTION ${socket.handshake.query.room}`)
         socket.join(socket.handshake.query.room);
-    })
+        socket.on('disconnect', () => {
+            console.log(`SOCKET DISCONNECT ${socket.handshake.query.room}`)
+        });
+    });
     return io;
 }
